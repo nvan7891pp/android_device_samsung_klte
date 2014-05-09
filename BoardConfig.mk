@@ -35,10 +35,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 TARGET_KERNEL_SOURCE := kernel/samsung/klte
 TARGET_KERNEL_CONFIG := msm8974_sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
-VARIENT_DEFCONFIG := msm8974pro_sec_klte_spr_defconfig
-MODEL := klte
-CARRIER := spr
-VARIENT := kltespr
+TARGET_KERNEL_VARIANT_CONFIG := msm8974pro_sec_klte_spr_defconfig
 #TARGET_PREBUILT_KERNEL := device/samsung/klte/kernel
 
 # Kernel
